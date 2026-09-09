@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cupsight — Politique de confidentialité</title>
+<title>Politique de confidentialité de Cupsight</title>
 <style>
   :root { color-scheme: light dark; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -17,42 +17,61 @@
 </style>
 </head>
 <body>
-  <h1>Politique de confidentialité — Cupsight</h1>
-  <p class="updated">Dernière mise à jour : 10 juin 2026</p>
+  <h1>Politique de confidentialité de Cupsight</h1>
+  <p class="updated">Dernière mise à jour : 9 septembre 2026 (remplace la version du 10 juin 2026)</p>
 
-  <p>Cupsight (« l'app ») est conçue pour respecter ta vie privée. Cette politique explique quelles données l'app traite et comment.</p>
+  <p>Cupsight (« l'app ») vous aide à scanner vos cafés, préparer vos extractions et les noter. Cette politique décrit, sans détour, quelles données l'app traite, où elles vont, et comment vous pouvez les limiter ou les supprimer. Elle s'applique à l'app iOS et aux pages de partage du site cupsight.app.</p>
 
-  <h2>1. Données stockées sur ton appareil</h2>
-  <p>Toutes les données que tu crées dans l'app — cafés scannés, matériel, recettes d'eau, journal d'extractions, notes de dégustation, photos — sont stockées <strong>localement sur ton iPhone</strong> et, si tu l'actives, synchronisées via <strong>ton propre iCloud Drive</strong>. Nous n'avons aucun accès à ces données et nous n'exploitons aucun serveur qui les héberge.</p>
-
-  <h2>2. Aucun compte, aucun pistage</h2>
-  <p>L'app ne demande pas de création de compte. Elle n'intègre aucun outil d'analyse, aucun réseau publicitaire et ne suit pas ton activité à des fins publicitaires ou de mesure.</p>
-
-  <h2>3. Caméra</h2>
-  <p>L'app utilise la caméra uniquement lorsque tu choisis de photographier un paquet de café ou des grains. La reconnaissance de texte (OCR) et l'estimation de la couleur de torréfaction sont effectuées <strong>sur ton appareil</strong>.</p>
-
-  <h2>4. Analyse par intelligence artificielle (Google Gemini)</h2>
-  <p>Lorsque tu demandes l'analyse d'un paquet ou une recommandation de recette, l'app envoie les informations nécessaires à cette demande — par exemple la <strong>photo du paquet ou des grains</strong> et le texte reconnu — à l'API <strong>Google Gemini</strong> afin de produire le résultat. Ces échanges sont régis par les conditions et la politique de confidentialité de Google :</p>
+  <h2>1. En bref</h2>
   <ul>
-    <li><a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Conditions de l'API Gemini</a></li>
-    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Politique de confidentialité de Google</a></li>
+    <li>Votre collection (cafés, matériel, recettes, journal, notes, photos) vit sur votre iPhone et, si vous l'activez, dans votre propre iCloud.</li>
+    <li>Un compte est créé automatiquement, sans e‑mail, dès que vous utilisez la recommandation par l'IA ou ouvrez la communauté ; vous pouvez le relier à votre identifiant Apple.</li>
+    <li>Les recommandations passent par notre serveur, qui interroge des modèles d'IA tiers (Google, et via OpenRouter des modèles de Z.ai et d'OpenAI).</li>
+    <li>Nous mesurons l'usage de l'app avec PostHog, hébergé dans l'Union européenne, y compris par des enregistrements de session. Vous pouvez désactiver cette mesure et le partage des extractions dans les Réglages.</li>
+    <li>Aucune publicité, aucun courtier de données, aucun suivi entre applications.</li>
   </ul>
-  <p>Ces données sont transmises pour traiter ta demande en temps réel. Cupsight ne conserve pas de copie de ces échanges sur un serveur ; la réponse est enregistrée localement dans ton journal.</p>
 
-  <h2>5. Annuaire des torréfacteurs</h2>
-  <p>L'app peut télécharger périodiquement une liste publique de torréfacteurs pour enrichir les suggestions. Cette requête ne transmet aucune donnée personnelle te concernant.</p>
+  <h2>2. Données sur votre appareil et dans votre iCloud</h2>
+  <p>Tout ce que vous créez dans l'app est enregistré localement sur votre iPhone. Si vous activez la sauvegarde iCloud dans les Réglages de l'app, une copie est placée dans votre propre iCloud Drive, sous votre identifiant Apple ; nous n'y avons pas accès. Vous pouvez aussi copier vos données dans un dossier de votre choix, et les exporter ou les importer.</p>
 
-  <h2>6. Partage de recettes</h2>
-  <p>Si tu choisis d'exporter ou de partager une recette, le fichier correspondant n'est envoyé qu'aux destinataires que tu sélectionnes, via les fonctions de partage de ton appareil.</p>
+  <h2>3. Compte et communauté</h2>
+  <p>Notre serveur est hébergé par <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase</a>, dans l'Union européenne (Francfort). La première fois que vous demandez une recommandation à l'IA ou que vous ouvrez l'onglet Découvrir, l'app crée pour vous un compte anonyme, identifié par un numéro aléatoire, sans nom ni e‑mail. Vous pouvez ensuite le relier à votre identifiant Apple (« Se connecter avec Apple ») : nous recevons alors l'adresse e‑mail que vous choisissez de partager, éventuellement une adresse relais Apple.</p>
+  <p>Quand vous utilisez la communauté, votre profil (pseudo, avatar, matériel déclaré), les cafés que vous ajoutez (nom, torréfacteur, origine, notes du paquet et photo du sachet), vos meilleures extractions notées et les recettes que vous publiez sont copiés sur le serveur pour être montrés aux autres membres. Un profil peut être rendu privé dans les Réglages ; les recettes ont leur propre visibilité. Supprimer un café dans l'app le retire aussi du serveur.</p>
 
-  <h2>7. Suppression de tes données</h2>
-  <p>Tu peux supprimer n'importe quelle donnée directement dans l'app. Désinstaller l'app supprime les données locales ; les données iCloud peuvent être gérées depuis les réglages iCloud de ton appareil.</p>
+  <h2>4. Recommandations par l'IA</h2>
+  <p>Lorsque vous demandez l'analyse d'un paquet, l'identification d'un matériel ou une recommandation, l'app envoie les éléments nécessaires (la photo du sachet ou des grains, le texte reconnu, votre matériel, les paramètres et notes de vos extractions précédentes pour ce café) à notre serveur, qui interroge un modèle d'IA tiers et vous renvoie la réponse. Selon la disponibilité, la demande est traitée par <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> (modèles Gemini) ou, via <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">OpenRouter</a>, par des modèles de <a href="https://z.ai/" target="_blank" rel="noopener">Z.ai</a> et d'<a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">OpenAI</a>. Les recherches sur les torréfacteurs et les fenêtres de repos passent par la recherche Google intégrée à Gemini.</p>
+  <p>Le serveur compte le nombre de demandes par compte et par jour (limite d'usage) et ne conserve pas le contenu des échanges ; ses journaux techniques peuvent garder quelques jours des extraits de réponses lorsqu'une demande échoue. La réponse est enregistrée dans votre journal, sur votre appareil.</p>
 
-  <h2>8. Enfants</h2>
-  <p>L'app ne s'adresse pas spécifiquement aux enfants et ne collecte sciemment aucune donnée les concernant.</p>
+  <h2>5. Partage des extractions pour améliorer les recommandations</h2>
+  <p>Par défaut, l'app envoie au serveur les paramètres et la note de chaque extraction que vous notez (café, cafetière, moulin, mouture, dose, eau, température, durée, curseurs de goût, commentaire, version de l'app), rattachés à votre numéro de compte. Ces données servent uniquement à améliorer les recommandations ; elles sont exploitées sous forme pseudonyme et agrégée. Vous pouvez désactiver ce partage à tout moment dans les Réglages : les données déjà partagées sont alors supprimées du serveur.</p>
 
-  <h2>9. Contact</h2>
-  <p>Pour toute question relative à cette politique : <a href="mailto:arthur.pierrey@gmail.com">arthur.pierrey@gmail.com</a></p>
+  <h2>6. Mesure d'usage</h2>
+  <p>Pour comprendre où l'app aide et où elle bloque, nous utilisons <a href="https://posthog.com/privacy" target="_blank" rel="noopener">PostHog</a>, hébergé dans l'Union européenne. Sont collectés : les écrans affichés et les actions dans l'app (scan, demande de recommandation, extraction enregistrée…), les lancements et mises en arrière‑plan, la version de l'app et d'iOS, un identifiant d'appareil et votre numéro de compte, ainsi qu'une localisation approximative (la ville) déduite de votre adresse IP, qui n'est pas conservée. Nous enregistrons aussi des sessions : une suite de captures de l'écran de l'app pendant que vous l'utilisez, qui peut donc montrer vos photos de sachets, vos noms de cafés, votre pseudo et le texte que vous saisissez. Ces enregistrements ne sont regardés que par nous, pour corriger l'app.</p>
+  <p>Vous pouvez désactiver toute cette mesure dans les Réglages de l'app (« Partager les données d'utilisation ») : la capture s'arrête immédiatement ; les données déjà envoyées sont conservées par PostHog selon ses conditions. Rien de tout cela n'est utilisé pour de la publicité ni partagé avec des tiers à cette fin.</p>
+
+  <h2>7. Notifications</h2>
+  <p>Si vous acceptez les notifications, l'app enregistre sur le serveur le jeton de notification de votre appareil, rattaché à votre compte, pour vous prévenir des extractions à noter, de la fenêtre de dégustation de vos cafés ou de l'activité de la communauté selon vos réglages.</p>
+
+  <h2>8. Formulaire de retour</h2>
+  <p>Quand vous nous écrivez depuis l'app, votre message, la version de l'app et, si vous la renseignez, votre adresse e‑mail sont enregistrés sur le serveur et transmis à notre outil de suivi pour y répondre.</p>
+
+  <h2>9. Caméra</h2>
+  <p>La caméra n'est utilisée que lorsque vous choisissez de photographier un paquet ou des grains. La reconnaissance du texte et le détourage du sachet sont effectués sur votre appareil ; la photo n'est envoyée que pour l'analyse par l'IA (section 4) et, si vous utilisez la communauté, comme image de votre café (section 3).</p>
+
+  <h2>10. Annuaire des torréfacteurs et du matériel</h2>
+  <p>L'app télécharge périodiquement des catalogues publics de torréfacteurs et de matériel. Lorsqu'un torréfacteur ou un matériel n'y figure pas, le nom que vous avez saisi ou scanné est remonté au serveur, sans autre donnée personnelle, pour enrichir le catalogue.</p>
+
+  <h2>11. Pages de partage</h2>
+  <p>Une recette ou un café que vous partagez volontairement devient accessible par un lien sur cupsight.app ; ces pages interrogent le serveur pour afficher ce contenu et ne sont pas indexées par les moteurs de recherche.</p>
+
+  <h2>12. Conservation et suppression</h2>
+  <p>Vos données locales se suppriment dans l'app ; désinstaller l'app efface la copie locale, et votre iCloud se gère depuis les réglages de votre appareil. Côté serveur : supprimer un café ou une recette le retire du serveur ; désactiver le partage des extractions supprime les extractions partagées ; désactiver la mesure d'usage arrête la collecte. Pour faire supprimer votre compte et l'ensemble des données qui y sont rattachées, écrivez‑nous à l'adresse ci‑dessous : la demande est traitée sous trente jours.</p>
+
+  <h2>13. Enfants</h2>
+  <p>L'app ne s'adresse pas aux enfants et ne collecte sciemment aucune donnée les concernant.</p>
+
+  <h2>14. Modifications et contact</h2>
+  <p>Cette politique évolue quand l'app change ; la date en tête fait foi. Pour toute question ou demande relative à vos données : <a href="mailto:arthur.pierrey@gmail.com">arthur.pierrey@gmail.com</a>.</p>
 
   <footer>
     © 2026 Cupsight. <a href="index.html">Retour à l'accueil</a>
